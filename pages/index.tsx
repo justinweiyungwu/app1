@@ -31,10 +31,8 @@ export default function Home() {
             <p>A file.</p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
+          
+     
             <h2>Update &rarr;</h2>
             <p>A folder name, filename, contents.</p>
           </a>
