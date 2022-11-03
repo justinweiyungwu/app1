@@ -13,31 +13,30 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Justin Wu
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.tsx</code>
+          What does CRUD stand for?
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+        <a href="https://nextjs.org/learn" className={styles.card}>
+          <h2>Create &rarr;</h2>
+          <p>A file or folder.</p>
+
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <h2> Read &rarr;</h2>
+            <p>A file.</p>
           </a>
 
           <a
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h2>Update &rarr;</h2>
+            <p>A folder name, filename, contents.</p>
           </a>
 
           <a
@@ -46,9 +45,9 @@ export default function Home() {
             rel="noopener noreferrer"
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
+            <h2>Delete &rarr;</h2>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              The file. The folder.
             </p>
           </a>
         </div>
